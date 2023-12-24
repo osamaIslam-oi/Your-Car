@@ -1,0 +1,21 @@
+.small {
+  width: 50%;
+}
+.SeventhContentFlex {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-items: center;
+  align-items: center;
+  height: 400px;
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 660px) {
+  .SeventhContentFlex {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .small {
+  width: 80%;
+}
+}
+

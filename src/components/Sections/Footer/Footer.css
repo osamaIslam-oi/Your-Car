@@ -1,0 +1,108 @@
+.footerTitle {
+  font-family: lora;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+
+  color: #741906;
+}
+.Footerp {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #12273d;
+}
+
+.text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  color: #741906;
+}
+
+.footerEmail {
+  height: 54px;
+  width: 276px;
+  left: 520px;
+  top: 6069px;
+  border-radius: 0px;
+  margin-top: 3rem;
+}
+.footerEmail::placeholder {
+  padding-left: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #12273d;
+}
+
+.footerbutton {
+  height: 54px;
+  width: 135px;
+  left: 1px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #741906;
+  margin-left: 5px;
+  color: white;
+}
+
+.Footerlogos {
+  padding: 1.5rem;
+}
+
+.divider {
+  border-top: 3px solid #5d1305;
+  width: 80%;
+  margin: auto;
+}
+
+.copyrigth {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-collector {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer-text {
+  display: block;
+}
+
+.anotherline {
+  display: block;
+}
+.Footerlogos {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 660px) {
+  .footer-collector {
+    margin-left: 6rem;
+  }
+  .footerbutton{
+    margin-top: 1rem;
+  }
+}

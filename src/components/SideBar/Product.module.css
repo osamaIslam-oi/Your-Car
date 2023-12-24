@@ -1,0 +1,76 @@
+.card {
+  background-color: rgb(255, 251, 251);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  z-index: -1;
+}
+
+.Producth6 {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #741906;
+}
+
+.Productp {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232222f5;
+}
+
+.centerAdj {
+  color: black;
+  padding: 1rem;
+}
+
+.buttonAdj {
+  background-color: #741906;
+  padding: 2px 13px;
+  color: white;
+  align-self: center;
+}
+.buttonAdj2 {
+  background-color: #741906;
+  padding: 2px 10px;
+  color: white;
+  align-self: center;
+}
+
+.buttonAdj:hover {
+  background-color: #a4240b;
+}
+.buttonAdj2:hover {
+  background-color: #a4240b;
+}
+.centerAdj {
+  align-self: center;
+}
+
+
+
+.image {
+  width: 50%;
+}
+
+.trash {
+  width: 20%;
+  padding-left: 10px;
+}
+
+
+@media (max-width: 500px) {
+  
+  .card{
+    margin-left: 1.5rem;
+    margin-right: 0;
+  }
+}

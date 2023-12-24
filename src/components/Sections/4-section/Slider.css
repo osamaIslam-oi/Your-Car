@@ -1,0 +1,27 @@
+.react-multi-carousel-dot-list {
+  border-radius: 50%;
+  padding-top: 9rem;
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  background-color: hsla(10, 90%, 24%, 0.151);
+  border-radius: 50%;
+  font-size: medium;
+  float: left;
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left:hover {
+  background-color: #741906;
+}
+
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  background-color: hsla(10, 90%, 24%, 0.151);
+  border-radius: 50%;
+  font-size: medium;
+  margin-left: 5rem;
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right:hover {
+  background-color: #741906;
+}
+
+.center {
+  text-align: center;
+}

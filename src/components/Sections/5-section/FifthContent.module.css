@@ -1,0 +1,83 @@
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position:relative;
+  color: white;
+  text-align: center;
+  
+}
+
+.image{
+  width: 100%;
+  height: 300px;
+}
+.image1{
+  width: 100%;
+  height: 300px; 
+}
+
+.FifthContenth4{
+margin-bottom: 1rem;
+Font-family: SF Pro Display;
+font-weight: Bold;
+Font-size: 32px;
+Line-height: 100%;
+}
+
+.FifthContentp{
+Font-family: SF Pro Display;
+font-weight: Medium;
+Font-size: 20px;
+Line-height: 100%;
+margin-bottom: 2rem;
+}
+
+.FifthContentsapan{
+Font-family: SF Pro Display;
+font-weight: Semibold;
+Font-size: 24px;
+border: 2px white solid;
+border-radius: 12px;
+padding: 0.6rem 1.4rem;
+margin-top: 3rem;
+}
+.FifthContent{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+
+@media screen and (max-width: 660px) {
+  .grid1{
+      grid-template-columns: 1fr;
+
+  }
+  .image{
+    width: 100%;
+  }
+  .image1{
+    display: none;
+  }
+  .FifthContent{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+}
+@media screen and (max-width: 500px) {
+  .grid1{
+      grid-template-columns: 1fr;
+
+  }
+  .image{
+    width: 100%;
+  }
+  .image1{
+    display: none;
+  }
+  .FifthContent{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+}
