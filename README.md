@@ -78,5 +78,3 @@ Please ensure that your code follows the project's coding standards and includes
 
 ## License
 This project is licensed under the MIT License.
-
-Feel free to customize the information based on your project's specifics, and make sure to replace placeholders like `your-username` with your actual GitHub username.
